@@ -95,49 +95,6 @@ $('document').ready(function () {
     , "images/pouls1.jpg"
   ], {duration: 3000, fade: 1250});
 
-	// if ($('.iso').length>0) {
-  //   $(window).load(function() {
-  //     $('.iso').fadeIn(1000);
-  //     var $container = $('.iso').isotope({
-  //       itemSelector: '.isotope-item',
-  //       layoutMode: 'masonry',
-  //       transitionDuration: '0.6s',
-  //       filter: "*"
-  //     });
-  //     // filter items on button click
-  //     $('.filters').on( 'click', 'ul.nav li a', function() {
-  //       var filterValue = $(this).attr('data-filter');
-  //       $(".filters").find("li.active").removeClass("active");
-  //       $(this).parent().addClass("active");
-  //       $container.isotope({ filter: filterValue });
-  //       return false;
-  //     });
-  //   });
-  // };
-
-  // if($(".modal").length>0) {
-  //   $(".modal").each(function() {
-  //     $(".modal").prependTo( "body" );
-  //   });
-  // }
-
-//   function filterItems(category) {
-//     var items = document.querySelectorAll('.item');
-//     items.forEach(function(item) {
-//         if (category === 'all') {
-//             item.classList.remove('hidden');
-//         } else {
-//             if (item.classList.contains(category)) {
-//                 item.classList.remove('hidden');
-//             } else {
-//                 item.classList.add('hidden');
-//             }
-//         }
-//     });
-// }
-
-
-
 
 document.querySelectorAll('.filters a').forEach(filterLink => {
   filterLink.addEventListener('click', function(e) {
