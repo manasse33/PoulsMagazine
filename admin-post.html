@@ -35,16 +35,95 @@
   </div>
 </section>
 <div class="first">
-  <h1 class="text-center">S'inscrire</h1>
+  <h1 class="text-center">Posts</h1>
+</div>
+
+<div class="grid" style="background-color: transparent !important;">
+  <div class="buttons filters">
+   <!-- <a data-filter="*"> <button class="active">Tout</button></a> -->
+    <a href="#" data-filter=".img"><button class="active">Images</button></a>
+    <a href="#" data-filter=".video"><button>Videos</button></a>
+    <a href="#" data-filter=".doc"><button>Documents</button></a>
+  </div>
 </div>
 
 
-<section id="contactUs" class="contact-parlex">
+<section id="contactUs" class="contact-parlex img">
     <div class="parlex-back">
       <div class="container">
         <div class="row">
           <div class="heading text-center"> 
-            <h2>Inscription</h2>
+            <h2>Images</h2>
+          </div>
+        </div>
+        <div class="row mrgn30">
+          <form method="post" action="" id="contactfrm" role="form">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="AFOULA" title="Veuillez entrer un nom">
+              </div>
+              <div class="form-group">
+                <label for="name">Prenom</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="AFOULA" title="Veuillez entrer un nom">
+              </div>
+              <div class="form-group">
+                <label for="email">Adresse Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="manasseafoula33@gmail.com" title="Veuillez entrer une adresse">
+              </div>
+              <div class="form-group">
+                <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit"><i class="fa fa-send"></i></button>
+              </div>
+              <div class="result"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+   
+    </div>
+  </section>
+
+  <section id="contactUs" class="contact-parlex video">
+    <div class="parlex-back">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center"> 
+            <h2>Vidéos</h2>
+          </div>
+        </div>
+        <div class="row mrgn30">
+          <form method="post" action="" id="contactfrm" role="form">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label for="name">Titre</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="AFOULA" title="Veuillez entrer un nom">
+              </div>
+              <div class="form-group">
+                <label for="name">Videos</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="AFOULA" title="Veuillez entrer un nom">
+              </div>
+              <div class="form-group">
+                <label for="email">Description</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="manasseafoula33@gmail.com" title="Veuillez entrer une adresse">
+              </div>
+              <div class="form-group">
+                <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit"><i class="fa fa-send"></i></button>
+              </div>
+              <div class="result"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+   
+    </div>
+  </section>
+
+  <section id="contactUs" class="contact-parlex doc">
+    <div class="parlex-back">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center"> 
+            <h2>Documents</h2>
           </div>
         </div>
         <div class="row mrgn30">
